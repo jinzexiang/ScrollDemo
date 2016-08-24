@@ -24,7 +24,7 @@ public class LayoutDemo extends View {
 
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setColor(Color.parseColor("#d3d4f3"));
-
+        mPaint.setDither(true);
     }
 
     @Override
